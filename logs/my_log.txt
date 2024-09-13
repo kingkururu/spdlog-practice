@@ -1,3 +1,0 @@
-[2024-09-13 18:47:27.621] [multi_sink] [info] This message will go to both console and file.
-[2024-09-13 18:47:27.622] [multi_sink] [warning] This warning will go to both console and file.
-[2024-09-13 18:47:27.622] [multi_sink] [error] This error will go to both console and file.

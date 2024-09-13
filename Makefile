@@ -7,7 +7,7 @@ LDFLAGS = -L/opt/homebrew/opt/spdlog/lib -L/opt/homebrew/opt/fmt/lib -lspdlog -l
 TARGET = log
 
 # Define the source files
-SRCS = log.cpp
+SRCS = log.cpp logging.cpp
 
 # Define the object files
 OBJS = $(SRCS:.cpp=.o)
@@ -25,7 +25,6 @@ $(TARGET): $(OBJS)
 
 # Clean up build files
 clean:
-	rm -f $(TARGET) $(OBJS)g
+	rm -f $(TARGET) $(OBJS)
 
 .PHONY: all clean
-
